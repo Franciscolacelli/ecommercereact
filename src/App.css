@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.row{
+    padding: 1rem 0;
+}
+
+.col{
+    margin: 1rem 0;
+    }
+
+.detail-container{
+    text-align: center;
+    margin: 25px;
+}
+
+h1{
+    color: black;
+}
+
+h2{
+    padding: 10px;
+}
+
+p{
+    color: black;
+}
+
+.loader{
+    background-color: rgba(255, 255, 255, 0.637);
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.w-100{
+    border-radius: 5px 20px;
+    
+}
+
+.search{
+    border-radius: 5px;
+}
+
+.w-100:hover{
+    box-shadow: 5px 5px 5px rgb(114, 114, 114);
+    transition: .3s;
+}
