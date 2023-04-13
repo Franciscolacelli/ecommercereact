@@ -73,7 +73,7 @@ const Home = () => {
                                         style={{height: 200, width:250}}/>
                                         <Card.Body>
                                             <Card.Title>{item.title}</Card.Title>
-                                            <Card.Text>{item.description}</Card.Text>
+                                            <Card.Text>${item.price}</Card.Text>
                                             <Button className='w-100' as={Link} to={`/product/${item.id}`} variant="primary">Ver detalle</Button>
                                         </Card.Body>
                                     </Card>
